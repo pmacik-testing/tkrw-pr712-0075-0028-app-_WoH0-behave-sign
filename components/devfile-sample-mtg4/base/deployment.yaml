@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-mtg4
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0028-tenant/tkrw-pr712-0075-0028-app/devfile-sample-mtg4@sha256:4a2b080936a64d9745b8bb613475c5e0552b7d8ea31873110d8e358d281d957c
         name: my-nodejs
         ports:
         - containerPort: 3001
